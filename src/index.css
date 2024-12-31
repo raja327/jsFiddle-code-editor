@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.heading{
+    @apply font-bold text-xl p-2;
+}
+.hover-nav{
+    @apply hover:text-orange-400
+    hover:before:content-[''] hover:before:w-[20px] hover:before:h-[3px] hover:before:bg-orange-400 hover:after:content-[''] hover:after:w-[20px] hover:after:h-[3px] hover:after:bg-orange-400
+    duration-300 ease-in-out
+}
